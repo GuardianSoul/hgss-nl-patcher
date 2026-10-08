@@ -94,7 +94,7 @@ function patchWorker() {
     if(jobs.has(file))return jobs.get(file).promise;
     const script=document.createElement('script');let resolve,reject;
     const promise=new Promise((a,b)=>{resolve=a;reject=b;});
-    jobs.set(file,{script,resolve,reject,promise});script.src=file+'.js';
+    jobs.set(file,{script,resolve,reject,promise});script.src=file+'.js?v='+encodeURIComponent(manifest.release);
     script.onerror=()=>{script.remove();jobs.delete(file);reject(new Error('Het vertaalpakket kon niet worden geopend. Houd de map “patches” bij index.html.'));};
     document.head.append(script);return promise;
   }

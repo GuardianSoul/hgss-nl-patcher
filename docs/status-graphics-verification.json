@@ -1,0 +1,23 @@
+{
+  "heartgold": {
+    "old_base_sha256": "feab80facca431b3d54ce493def1ab617b5cb4a46c9b91c9c2d2b410d84cdc04",
+    "new_base_sha256": "3e9affcb619c7d7df853ea5f16946b93f9a493f31f1645e099754374f297733b",
+    "variants": 16,
+    "non_status_resources_preserved": true,
+    "live_build_exact": true
+  },
+  "soulsilver": {
+    "old_base_sha256": "b4bc5fe8861e2afb67a689ddb3bd196d25fba5f4a4967a7fb5fcc4bcc6b843f3",
+    "new_base_sha256": "05e26f3b27efd0c42e836c9188e7d78f8ccd133a139937c171e77b7279eb2015",
+    "variants": 16,
+    "non_status_resources_preserved": true,
+    "live_build_exact": true
+  },
+  "production_browser_engine": {
+    "inputs": 14,
+    "configurations": 32,
+    "compressed_payloads_sha256": "PASS",
+    "complete_outputs_sha256": "PASS",
+    "retail_normalization": "PASS"
+  }
+}
