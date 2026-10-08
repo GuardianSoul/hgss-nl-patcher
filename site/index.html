@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Nederlandse ROM-patcher voor Pokémon HeartGold en SoulSilver. Verwerk je eigen spelbestand lokaal.">
+  <title>HeartGold / SoulSilver · Nederlandse patch</title>
+  <link rel="stylesheet" href="style.css?v=028">
+  <script defer src="fast-sha.js?v=028"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="manifest.js"></script>
+  <script defer src="rom-ui.js?v=028"></script>
+  <script defer src="app.js?v=028"></script>
+</head>
+<body>
+<main class="game-menu">
+  <header class="menu-header">
+    <div class="header-title"><span class="header-symbol" aria-hidden="true"></span><h1>HEARTGOLD <span>/</span> SOULSILVER</h1></div>
+    <p>NEDERLANDSE PATCH</p>
+  </header>
+
+  <ol class="step-track" aria-label="Stappen">
+    <li aria-current="step">1 · Spel</li><li>2 · Namen</li><li>3 · Opslaan</li>
+  </ol>
+  <div class="screens" id="wizard" data-direction="forward">
+    <section id="step-1" class="screen screen-top" aria-labelledby="file-title">
+      <h2 class="section-bar" id="file-title" tabindex="-1"><span>01</span> KIES JE SPEL</h2>
+      <div class="game-display">
+        <canvas id="rom-icon" width="32" height="32" hidden aria-label="Spelicoon uit je gekozen ROM"></canvas>
+        <div class="empty-icon" aria-hidden="true"><span>HG</span><span>SS</span></div>
+        <p id="edition">HEARTGOLD / SOULSILVER</p>
+        <p class="display-subtitle">Kies je eigen HeartGold- of SoulSilver-bestand.</p>
+      </div>
+      <label class="dropzone menu-action" id="dropzone" for="rom-file">
+        <span class="menu-arrow" aria-hidden="true"></span>
+        <span class="file-copy"><strong id="file-heading">BESTAND KIEZEN</strong><span id="file-description">Kies een .nds-bestand.</span></span>
+        <input type="file" id="rom-file" accept=".nds" aria-label="Kies je eigen Nintendo DS-ROM">
+      </label>
+      <p id="rom-status" class="rom-status" role="status" aria-live="polite">Je bestand blijft op je apparaat.</p>
+      <div class="status-row"><span>SPEL</span><strong id="ticket-game">Nog niet gekozen</strong></div>
+      <div class="step-actions"><button id="continue-file" class="menu-action primary" disabled>Doorgaan <span aria-hidden="true">▶</span></button></div>
+    </section>
+
+    <section id="step-2" class="screen screen-bottom" hidden aria-labelledby="names-title">
+      <h2 class="section-bar" id="names-title" tabindex="-1"><span>02</span> KIES JE NAMEN</h2>
+      <p class="menu-description">Kies per categorie de taal van de namen.</p>
+      <fieldset id="options" disabled>
+        <legend class="sr-only">Engelse namen behouden</legend>
+        <label class="option">
+          <input id="items" type="checkbox" aria-label="Itemnamen in het Engels">
+          <span class="selection-arrow" aria-hidden="true"></span>
+          <span class="option-copy"><strong>ITEMNAMEN</strong><span>Drankje / Potion</span></span>
+          <span class="language-choice"><span class="nl-choice">NL</span><span class="en-choice">ENG</span></span>
+        </label>
+        <label class="option">
+          <input id="places" type="checkbox" aria-label="Plaatsnamen in het Engels">
+          <span class="selection-arrow" aria-hidden="true"></span>
+          <span class="option-copy"><strong>PLAATSNAMEN</strong><span>Ilex Woud / Ilex Forest</span></span>
+          <span class="language-choice"><span class="nl-choice">NL</span><span class="en-choice">ENG</span></span>
+        </label>
+        <label class="option">
+          <input id="moves" type="checkbox" aria-label="Aanvalsnamen in het Engels">
+          <span class="selection-arrow" aria-hidden="true"></span>
+          <span class="option-copy"><strong>AANVALSNAMEN</strong><span>Snelle Ster / Swift</span></span>
+          <span class="language-choice"><span class="nl-choice">NL</span><span class="en-choice">ENG</span></span>
+        </label>
+        <label class="option">
+          <input id="abilities" type="checkbox" aria-label="Vaardigheidsnamen in het Engels">
+          <span class="selection-arrow" aria-hidden="true"></span>
+          <span class="option-copy"><strong>VAARDIGHEIDSNAMEN</strong><span>Statisch / Static</span></span>
+          <span class="language-choice"><span class="nl-choice">NL</span><span class="en-choice">ENG</span></span>
+        </label>
+      </fieldset>
+      <p class="consistency">Deze keuze geldt ook voor namen in gesprekken.</p>
+      <div class="step-actions"><button id="back-file" class="text-button">◀ Terug</button><button id="continue-names" class="menu-action primary">Doorgaan <span aria-hidden="true">▶</span></button></div>
+    </section>
+    <section id="step-3" class="screen" aria-labelledby="save-title" hidden>
+      <h2 id="save-title" class="section-bar" tabindex="-1"><span>03</span> MAAK JE SPEL NEDERLANDS</h2>
+      <p class="menu-description">Je eigen bestand blijft behouden.</p>
+      <div class="dialogue"><p id="choices-summary">Alle namen in het Nederlands.</p></div>
+      <button class="patch-button menu-action" id="patch-button" disabled><span class="menu-arrow" aria-hidden="true"></span><span>VERTALING MAKEN</span></button>
+      <div id="done" class="done" hidden>
+        <h3>KLAAR!</h3>
+        <p>Het vertaalde spelbestand is klaar.</p>
+        <a id="download" class="download menu-action" download><span class="menu-arrow" aria-hidden="true"></span><span>OPSLAAN</span></a>
+        <button id="again" class="text-button">Instellingen wijzigen</button>
+      </div>
+      <button id="back-names" class="text-button">◀ Terug</button>
+    </section>
+  </div>
+  <div class="shared-status">
+      <div class="progress-wrap" id="progress-wrap" hidden>
+        <progress id="progress" max="100" value="0" aria-label="Vertaalvoortgang"></progress>
+        <p id="progress-text" role="status" aria-live="polite"></p>
+      </div>
+      <div class="error dialogue" id="error" role="alert" hidden></div>
+  </div>
+
+  <section class="info-menu" aria-label="Informatie">
+    <details id="translation">
+      <summary>OVER DE VERTALING</summary>
+      <div class="info-content">
+        <p>HeartGold en SoulSilver in eenvoudig Nederlands.</p>
+        <p>De Nederlandse anime is de hoofdreferentie voor toon, sfeer en naamkeuzes. De gelokaliseerde Trading Card Game is de secundaire bron. Stadsnamen blijven gelijk aan de namen uit de anime.</p>
+        <p>We behouden herkenbare gametermen zoals Level en HP, zodat de spelervaring vertrouwd blijft.</p>
+        <p>We vergelijken de officiële spelteksten in alle beschikbare talen om betekenis en humor te behouden. De teksten passen in de tekstvakken van het spel. Spelregels en trainerteams blijven origineel.</p>
+        <p>De Pokédex is uitgebreid met Nederlands als extra taal. Beschikbaar: Nederlands, Engels, Duits, Frans, Spaans, Italiaans en Japans. Nederlands is standaard geselecteerd.</p>
+        <p>De Pokédex gebruikt meters (m) en kilogrammen (kg). De Engelstalige versie die in Nederlandse winkels werd verkocht, gebruikt feet en pounds.</p>
+        <p>Intern blijft het spel de Engelse versie. Pokémon die je vangt, hebben Engels als herkomsttaal. Bij ruilen worden ze daarom als Engelstalig herkend.</p>
+      </div>
+    </details>
+    <details id="sources">
+      <summary>NAMEN EN REFERENTIES</summary>
+      <div class="info-content">
+        <h3>Aanvallen</h3>
+        <dl class="source-examples">
+          <div><dt>Snelle Ster</dt><dd>Swift · S3, afl. 22 · 18:35</dd></div>
+          <div><dt>Toekomstbeeld</dt><dd>Future Sight · S3, afl. 40 · 07:44</dd></div>
+        </dl>
+        <h3>Voorwerpen</h3>
+        <dl class="source-examples">
+          <div><dt>Maansteen</dt><dd>Moon Stone · S3, afl. 27 · 09:05</dd></div>
+          <div><dt>Silver Wing</dt><dd>Naam behouden · S5, afl. 5 · 04:28</dd></div>
+        </dl>
+        <h3>Poké Balls</h3>
+        <dl class="source-examples">
+          <div><dt>Fast Ball</dt><dd>S3, afl. 27 · 06:45</dd></div>
+        </dl>
+        <h3>Plaatsnamen</h3>
+        <dl class="source-examples">
+          <div><dt>Goldenrod City</dt><dd>S3, afl. 29 · 20:57</dd></div>
+          <div><dt>Strijd der Grenzen</dt><dd>Battle Frontier · S8, afl. 39 · 09:37</dd></div>
+          <div><dt>Ilex Woud</dt><dd>Ilex Forest · S3, afl. 29 · 01:21</dd></div>
+        </dl>
+        <h3>Vaardigheden</h3>
+        <dl class="source-examples">
+          <div><dt>Statisch</dt><dd>Static · S10, afl. 15 · 12:48</dd></div>
+        </dl>
+        <h3>Gametermen uit het spel</h3>
+        <dl class="source-examples">
+          <div><dt>Level en HP</dt><dd>Behouden voor herkenbaarheid</dd></div>
+        </dl>
+      </div>
+    </details>
+    <details id="questions">
+      <summary>HULP</summary>
+      <div class="info-content">
+        <h3>Ondersteunde ROMs</h3>
+        <p>Deze 14 originele uitgaven worden ondersteund. Een aangepast of beschadigd bestand werkt niet.</p>
+        <ul id="supported-roms"></ul>
+        <h3>Engelse namen</h3>
+        <p>Je naamkeuze geldt overal, ook in gesprekken. De zinnen blijven Nederlands.</p>
+        <h3>Je eigen bestand</h3>
+        <p>Je bestand wordt volledig lokaal op je apparaat verwerkt. Er worden geen gegevens verstuurd.</p>
+        <h3>Fanproject</h3>
+        <p>Een fanproject, zonder betrokkenheid van Nintendo, Game Freak of The Pokémon Company. Het pakket bevat geen spelbestand of gamegraphics. Voor verspreiding kan toestemming nodig zijn.</p>
+      </div>
+    </details>
+  </section>
+  <footer><span>HEARTGOLD / SOULSILVER · FANVERTALING</span><span id="release">VERSIE</span></footer>
+</main>
+</body>
+</html>
