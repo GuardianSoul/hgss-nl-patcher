@@ -1,0 +1,20 @@
+{
+  "release": "2026.10.08-2",
+  "snapshot_sha256": "798426723635c4c58e024025ee150f05c2f672ef73156c1a0f43d66449998f95",
+  "inputs": 14,
+  "configurations": 32,
+  "builds": "PASS",
+  "byte_exact_banks": 829,
+  "production_engine": "PASS",
+  "public_payloads": "PASS",
+  "games": {
+    "heartgold": {
+      "baseSha256": "cb1df9be57891e558a0021269b738915939c8273053f469fe49e69342f427f10",
+      "variants": 16
+    },
+    "soulsilver": {
+      "baseSha256": "9b0e379b3e691a5a187699fd43b069ea20441fe5c5af9897f2bbbae764ece427",
+      "variants": 16
+    }
+  }
+}
