@@ -1,19 +1,20 @@
 {
-  "release": "2026.10.08-2",
-  "snapshot_sha256": "798426723635c4c58e024025ee150f05c2f672ef73156c1a0f43d66449998f95",
+  "release": "2026.10.09-1",
+  "snapshot_sha256": "2b7e2d240ef3c83d94ba79534bbecf6d217f7fbc2da8c59ede8c9e0b953ae22f",
   "inputs": 14,
   "configurations": 32,
   "builds": "PASS",
   "byte_exact_banks": 829,
   "production_engine": "PASS",
   "public_payloads": "PASS",
+  "point_abbreviations": "GP / KP",
   "games": {
     "heartgold": {
-      "baseSha256": "cb1df9be57891e558a0021269b738915939c8273053f469fe49e69342f427f10",
+      "baseSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
       "variants": 16
     },
     "soulsilver": {
-      "baseSha256": "9b0e379b3e691a5a187699fd43b069ea20441fe5c5af9897f2bbbae764ece427",
+      "baseSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
       "variants": 16
     }
   }
