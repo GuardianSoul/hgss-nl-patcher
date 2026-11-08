@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "nameOptionsVersion": 2,
-  "release": "2026.10.09-1",
+  "release": "2026.11.08",
   "translationStatus": "Werkversie; taalredactie loopt",
   "inputs": [
     {
@@ -237,26 +237,26 @@
       "size": 134217728,
       "basePatch": {
         "file": "patches/heartgold-nl.xor.gz",
-        "sha256": "cf4dc468af32e64b2d1866f39b151090585c9fff2d01f5a12f5dbd0a7c8dcd01",
+        "sha256": "25c973daf90a0d558cdba8bd4406f79d91951a80dce54f931d3504984e08de19",
         "sourceSha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
-        "targetSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-        "bytes": 6326743
+        "targetSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+        "bytes": 6327207
       },
       "variants": {
         "0": {
           "patch": null,
-          "sha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
+          "sha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
           "changedRows": 0
         },
         "8": {
           "patch": {
             "file": "patches/heartgold-names-8.xor.gz",
-            "sha256": "5190097234fc461ec2751d0914ba83ce30b1f61d6f4bd60fcadccd5713185448",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "c1719c26b74bcc941724afdf967b4411e9563b36e670996b8bfa03bae863473c",
-            "bytes": 1849753
+            "sha256": "9edd0c7489b79c244f73f9f190d55aec25d79fe8987334bf7fb3b934279a329a",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "dc9afb7101ed3a0df459ab7d93cb75e3e721956e4a8dc811af8ec7f1a3a66fd5",
+            "bytes": 1849924
           },
-          "sha256": "c1719c26b74bcc941724afdf967b4411e9563b36e670996b8bfa03bae863473c",
+          "sha256": "dc9afb7101ed3a0df459ab7d93cb75e3e721956e4a8dc811af8ec7f1a3a66fd5",
           "changedRows": 244,
           "englishNames": [
             "abilities"
@@ -265,12 +265,12 @@
         "4": {
           "patch": {
             "file": "patches/heartgold-names-4.xor.gz",
-            "sha256": "ddd4ced0b1f8e4e7525507a07e2a44e2bd98d7c9fdb896b8ea19d3081634cdb7",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "587e10d3f78ffee1eb38af69268033ad0e36c3076e93529ac9ee3a2eb39a8694",
-            "bytes": 5116748
+            "sha256": "26dfeef27407b2adaab2337b14c66e30544e6879517fecc1d1f0e8aff2ff6266",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "ef2ecc5be240dda0ae4080cb73e84f6ad7e30bfcabc8a09c95a055894d75ff08",
+            "bytes": 5109889
           },
-          "sha256": "587e10d3f78ffee1eb38af69268033ad0e36c3076e93529ac9ee3a2eb39a8694",
+          "sha256": "ef2ecc5be240dda0ae4080cb73e84f6ad7e30bfcabc8a09c95a055894d75ff08",
           "changedRows": 2521,
           "englishNames": [
             "moves"
@@ -279,12 +279,12 @@
         "12": {
           "patch": {
             "file": "patches/heartgold-names-12.xor.gz",
-            "sha256": "8db8df361d00f370ae1a0271c162e5729174f4b3027a82b0bc113244202dd148",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "7956ecd0a5e84e3374d46ed68aa0504852db9607ff3264634c7e2f6e36d26eb8",
-            "bytes": 5471640
+            "sha256": "0a1f7d317e12e121b742388c756ae3554d8c654b168aed2ac57636a1818990e5",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "147c4b0df07045683e6506bac0d7bba2e45e6642ab377e94459744e93341e006",
+            "bytes": 5466639
           },
-          "sha256": "7956ecd0a5e84e3374d46ed68aa0504852db9607ff3264634c7e2f6e36d26eb8",
+          "sha256": "147c4b0df07045683e6506bac0d7bba2e45e6642ab377e94459744e93341e006",
           "changedRows": 2765,
           "englishNames": [
             "moves",
@@ -294,13 +294,13 @@
         "2": {
           "patch": {
             "file": "patches/heartgold-names-2.xor.gz",
-            "sha256": "a06e2829c5f67f9fbbfd41e6f5ba53dda547a22d4227a540801b5b9450c2cf33",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "ec8c9bae8c65420556f158c86d86864ff0075ac1785c5571cd1014f6fe6cf64c",
-            "bytes": 4542184
+            "sha256": "c1f9f4d70555d9cf3df81c372a2e40f003f36bb7a38ecb20e7d5e4b0a6a74d2f",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "1c4630161d2fe06d9a673844a6ff1f295e1c2101d72a0e9af3b32bea842646c0",
+            "bytes": 4556026
           },
-          "sha256": "ec8c9bae8c65420556f158c86d86864ff0075ac1785c5571cd1014f6fe6cf64c",
-          "changedRows": 1044,
+          "sha256": "1c4630161d2fe06d9a673844a6ff1f295e1c2101d72a0e9af3b32bea842646c0",
+          "changedRows": 1042,
           "englishNames": [
             "places"
           ]
@@ -308,13 +308,13 @@
         "10": {
           "patch": {
             "file": "patches/heartgold-names-10.xor.gz",
-            "sha256": "0c640c4f272f61df10cf77b97cbe81f25bbf363055998cf5e2552b37ffd93af1",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "5f8e65cac6b914b64b4835b60dd5ab7076ae5c5d0b3002d7835597bc8e36e235",
-            "bytes": 5246168
+            "sha256": "141552c033c8fd4d30a9957a4be8d55dbb2a589f755b472925587c1bf00006fa",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "ae058cfbca9e88c39caa8d5ac23f3a0172a4168fc4643f99e0e4156304fa0ef1",
+            "bytes": 5266048
           },
-          "sha256": "5f8e65cac6b914b64b4835b60dd5ab7076ae5c5d0b3002d7835597bc8e36e235",
-          "changedRows": 1288,
+          "sha256": "ae058cfbca9e88c39caa8d5ac23f3a0172a4168fc4643f99e0e4156304fa0ef1",
+          "changedRows": 1286,
           "englishNames": [
             "places",
             "abilities"
@@ -323,13 +323,13 @@
         "6": {
           "patch": {
             "file": "patches/heartgold-names-6.xor.gz",
-            "sha256": "c00b47057318cc42978dd8e1736326f8d7d56f54c594dc4f30728ac90f139417",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "3b13b574309a8760397fe79a97c605109681e873cd8037409ca8bc413260751b",
-            "bytes": 5421805
+            "sha256": "d910a058d069ac5d2372e6cbfd0dbffa864540e28dc2bbf864cae48dc32828f9",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "63ce6ccb8e3ef18de32767166b2f33051315fb792f3818356a0122e9b15d13bf",
+            "bytes": 5436907
           },
-          "sha256": "3b13b574309a8760397fe79a97c605109681e873cd8037409ca8bc413260751b",
-          "changedRows": 3558,
+          "sha256": "63ce6ccb8e3ef18de32767166b2f33051315fb792f3818356a0122e9b15d13bf",
+          "changedRows": 3556,
           "englishNames": [
             "places",
             "moves"
@@ -338,13 +338,13 @@
         "14": {
           "patch": {
             "file": "patches/heartgold-names-14.xor.gz",
-            "sha256": "39cdc57ad417098262b334b69f40145646033783be67c4248f06bbb6a3a43f0f",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "e0b4a7c4f288c74ce92ecfcfc17e4f4c40c46a0a8a9c05a19f400c70505ee7bc",
-            "bytes": 5422810
+            "sha256": "f38b8aa91887135b3bb8a8f669c746212aedd31e3abd93d8bd3e39aac7a012ae",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "7c0165366e2a33bcc9d473653f9af450841aa98bf47770e0d05919af1179d303",
+            "bytes": 5436039
           },
-          "sha256": "e0b4a7c4f288c74ce92ecfcfc17e4f4c40c46a0a8a9c05a19f400c70505ee7bc",
-          "changedRows": 3802,
+          "sha256": "7c0165366e2a33bcc9d473653f9af450841aa98bf47770e0d05919af1179d303",
+          "changedRows": 3800,
           "englishNames": [
             "places",
             "moves",
@@ -354,12 +354,12 @@
         "1": {
           "patch": {
             "file": "patches/heartgold-names-1.xor.gz",
-            "sha256": "9f391eb2724d8b28624a37e17ffdae8f68f7d7102f0e59863487e23490dc9128",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "c4d055700823f022ed0a7dffa3e59f8b31a095613b3e12309b0a466af240809d",
-            "bytes": 4734699
+            "sha256": "a4e3b24310bde16d514a8514cbcb2b0a0a0a8eff40ba5cfd8cb126fed4f23fae",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "5df2d136141e6787bd56f8582bb64f6f7c014822ace4ab88deee9b6dc2e197ef",
+            "bytes": 4736374
           },
-          "sha256": "c4d055700823f022ed0a7dffa3e59f8b31a095613b3e12309b0a466af240809d",
+          "sha256": "5df2d136141e6787bd56f8582bb64f6f7c014822ace4ab88deee9b6dc2e197ef",
           "changedRows": 1376,
           "englishNames": [
             "items"
@@ -368,12 +368,12 @@
         "9": {
           "patch": {
             "file": "patches/heartgold-names-9.xor.gz",
-            "sha256": "a2de5ff1ed28b6196087f0d4746d0eca0e6d129b490435d1b9b1fb142728c743",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "698d830c2bf2adf7fd5da4ab6b19f82e5f369093887f65ab275cfe4926baeabc",
-            "bytes": 4768773
+            "sha256": "0d65006dae3fa52c02aaf36102723e7e04153eca748fdd7519a38b949329c23c",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "f3f5310b0f700cd379792ae5de8806cc30bb10596f1d734acfce44847e6bf132",
+            "bytes": 4763026
           },
-          "sha256": "698d830c2bf2adf7fd5da4ab6b19f82e5f369093887f65ab275cfe4926baeabc",
+          "sha256": "f3f5310b0f700cd379792ae5de8806cc30bb10596f1d734acfce44847e6bf132",
           "changedRows": 1620,
           "englishNames": [
             "items",
@@ -383,12 +383,12 @@
         "5": {
           "patch": {
             "file": "patches/heartgold-names-5.xor.gz",
-            "sha256": "308b544237fd9ce3ae27f6cb9859e45e8092fbce1c34f12a71402e849fc46687",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "97c6c167e08c9f26e26c5ac42e3e83b03cfb0ff6e2961263c9a22fa68281db01",
-            "bytes": 5535649
+            "sha256": "a34c9c597873824a73cd7ed0855649f129fa73cbfc3cda2a9a8a365c36301550",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "3efd94d57efc7aa4113fd1680de9eefeb576968a1ab9b72f39faf1fa3c03de99",
+            "bytes": 5525220
           },
-          "sha256": "97c6c167e08c9f26e26c5ac42e3e83b03cfb0ff6e2961263c9a22fa68281db01",
+          "sha256": "3efd94d57efc7aa4113fd1680de9eefeb576968a1ab9b72f39faf1fa3c03de99",
           "changedRows": 3888,
           "englishNames": [
             "items",
@@ -398,12 +398,12 @@
         "13": {
           "patch": {
             "file": "patches/heartgold-names-13.xor.gz",
-            "sha256": "cc48f07df2b619206f850dd9f0dee5350f607ab618ce4671922de025318ac2f8",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "f6f3bd7b04eddd4dd914cd05b8c05e6a8c0acdfd0b3eb20ca186ed4abcfd65b7",
-            "bytes": 5527601
+            "sha256": "42b2491ac87c86d7976d2ec22a75ca4d94476cdb8975e8eeffb18e0a88831d3f",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "fdfe8d4b49e7b13278dae0862f0a3864b4da028ca0a34eaaf169f346a9ea166f",
+            "bytes": 5513553
           },
-          "sha256": "f6f3bd7b04eddd4dd914cd05b8c05e6a8c0acdfd0b3eb20ca186ed4abcfd65b7",
+          "sha256": "fdfe8d4b49e7b13278dae0862f0a3864b4da028ca0a34eaaf169f346a9ea166f",
           "changedRows": 4132,
           "englishNames": [
             "items",
@@ -414,13 +414,13 @@
         "3": {
           "patch": {
             "file": "patches/heartgold-names-3.xor.gz",
-            "sha256": "75614df3b58d63724f57b395ec7a146942d673941d293a59780320a4b935d9d7",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "9378ddece4306c3c682565d5ec9d3e05f72f8ab9d040c8c110c7473abf9f4eec",
-            "bytes": 4666791
+            "sha256": "64c5f428f2c984811619f1a114625d3ad472f016be7c4ba1422f9b5eb9d9a663",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "45209b571c1a1c1a4103a664b77ace1a1326a114fd909dfa22b1effe69b4f9bb",
+            "bytes": 4676470
           },
-          "sha256": "9378ddece4306c3c682565d5ec9d3e05f72f8ab9d040c8c110c7473abf9f4eec",
-          "changedRows": 2399,
+          "sha256": "45209b571c1a1c1a4103a664b77ace1a1326a114fd909dfa22b1effe69b4f9bb",
+          "changedRows": 2397,
           "englishNames": [
             "items",
             "places"
@@ -429,13 +429,13 @@
         "11": {
           "patch": {
             "file": "patches/heartgold-names-11.xor.gz",
-            "sha256": "4e759b06efca92a224caa1367101e51de081fa878c7c94265fb20400d9cfa737",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "a72c281def7f1a3f25f1a6b7fe089e64629403aeae7010bd61f36dc9a7e44f03",
-            "bytes": 4699112
+            "sha256": "4cf728f10f3171e4c51de312219457f897d187ae88d370791c0cbb6ee500daaf",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "20ed5e0fd179c6df93073577df8e39401e322b916ab14853f7797dbe8038e45c",
+            "bytes": 4708029
           },
-          "sha256": "a72c281def7f1a3f25f1a6b7fe089e64629403aeae7010bd61f36dc9a7e44f03",
-          "changedRows": 2643,
+          "sha256": "20ed5e0fd179c6df93073577df8e39401e322b916ab14853f7797dbe8038e45c",
+          "changedRows": 2641,
           "englishNames": [
             "items",
             "places",
@@ -445,13 +445,13 @@
         "7": {
           "patch": {
             "file": "patches/heartgold-names-7.xor.gz",
-            "sha256": "0b147f99e0d8eabdf2270c8e37a3cee297e9ea37365804bba6a22a6787d5a53c",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "5b7ac3f83cceaeb71e372cffea14cfbbc0b2305849b3f767b2a9fb1613f96fce",
-            "bytes": 5391670
+            "sha256": "52528cd78c794782029fdb2386d21a75570de4444426921873e65f9aeaddfcf7",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "e2ed93493f918d4e293e115bacc3438f06d8da038ae240d958502788d8cd1589",
+            "bytes": 5388891
           },
-          "sha256": "5b7ac3f83cceaeb71e372cffea14cfbbc0b2305849b3f767b2a9fb1613f96fce",
-          "changedRows": 4904,
+          "sha256": "e2ed93493f918d4e293e115bacc3438f06d8da038ae240d958502788d8cd1589",
+          "changedRows": 4902,
           "englishNames": [
             "items",
             "places",
@@ -461,13 +461,13 @@
         "15": {
           "patch": {
             "file": "patches/heartgold-names-15.xor.gz",
-            "sha256": "cf6d1c7c5bee17720e1f5d59f929f6e0215945c1cf78d4b1d610346ca5469668",
-            "sourceSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-            "targetSha256": "46ae7e7599c943aec0de53873c28841ddff076d5f1d443773ab51a7adf9c9a45",
-            "bytes": 5342613
+            "sha256": "78dcdbad287670088d2ab34f7f2ace8fda914dfdc38e48760e661b03a7922d3f",
+            "sourceSha256": "8affe9e95e5a239b7f14d11b9c04b7df95cf2ad256612e4bdf46f58603a5608b",
+            "targetSha256": "11aeaf5aa19a563af8ddc88dbef0598e0050f42851bbd6e8ec7535ac1bcc3006",
+            "bytes": 5351895
           },
-          "sha256": "46ae7e7599c943aec0de53873c28841ddff076d5f1d443773ab51a7adf9c9a45",
-          "changedRows": 5148,
+          "sha256": "11aeaf5aa19a563af8ddc88dbef0598e0050f42851bbd6e8ec7535ac1bcc3006",
+          "changedRows": 5146,
           "englishNames": [
             "items",
             "places",
@@ -500,26 +500,26 @@
       "size": 134217728,
       "basePatch": {
         "file": "patches/soulsilver-nl.xor.gz",
-        "sha256": "8482cee9f539d7d80e788feb26c1827c14965cbfe7bb7576d93628ee3c958d37",
+        "sha256": "087752f634969cc8f053ebd24c631b09e0fe4acecb7e8d45f4db994b39a83352",
         "sourceSha256": "51d0f94a16af7d77c067b4cb7d821ba890a13203a2e2c76049623332c0582e20",
-        "targetSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-        "bytes": 6309320
+        "targetSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+        "bytes": 6309928
       },
       "variants": {
         "0": {
           "patch": null,
-          "sha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
+          "sha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
           "changedRows": 0
         },
         "8": {
           "patch": {
             "file": "patches/soulsilver-names-8.xor.gz",
-            "sha256": "fb9e57ba82ea59d0d5629a2a0f69c8bda1344cf573938cb3e531e4a5cc1146d7",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "4cd6f07c55b515a9ad68025c9d1c27271fd6462131bbafad120945b8d268328e",
-            "bytes": 1849535
+            "sha256": "2ddad9dd56a89903eb41f2d3218d8a5358aae8457a8d35e0ef7b074578b83370",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "42baa5dd6660f6f5369c00983b7571c48a6188fa88ac516e3f0ba93a876df08e",
+            "bytes": 1849682
           },
-          "sha256": "4cd6f07c55b515a9ad68025c9d1c27271fd6462131bbafad120945b8d268328e",
+          "sha256": "42baa5dd6660f6f5369c00983b7571c48a6188fa88ac516e3f0ba93a876df08e",
           "changedRows": 244,
           "englishNames": [
             "abilities"
@@ -528,12 +528,12 @@
         "4": {
           "patch": {
             "file": "patches/soulsilver-names-4.xor.gz",
-            "sha256": "c5b843f1d94407c44d34437f9c4aa7c6036b32fe6d405103ec9ac9690aff0ed7",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "6666d98738da71063db15f3e4e1df0f6a9c33077aaa0fea75c65cd94befb853b",
-            "bytes": 5117151
+            "sha256": "490b0519fe2637b9d0815619881b0c97196c42527a8cb95794a45be8f2e94aa4",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "e520edb877cac7628c797ae1a8d2bb2f8580cbc784104db13671df1c5afe4c07",
+            "bytes": 5110258
           },
-          "sha256": "6666d98738da71063db15f3e4e1df0f6a9c33077aaa0fea75c65cd94befb853b",
+          "sha256": "e520edb877cac7628c797ae1a8d2bb2f8580cbc784104db13671df1c5afe4c07",
           "changedRows": 2521,
           "englishNames": [
             "moves"
@@ -542,12 +542,12 @@
         "12": {
           "patch": {
             "file": "patches/soulsilver-names-12.xor.gz",
-            "sha256": "12be9177a37799e9cc6db3e39967aebfc3c46113102fff3647b9254060013f10",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "32c90a79839dd65e5e4e2f825dfef14c7ea341956dc5df865f8bf549ba87f27d",
-            "bytes": 5181394
+            "sha256": "52130bff40bf558c51414587d5317a031b9c0e17213dcfefaa2c5d1750d892a4",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "ada8c7ca60b0b614a8111dd2c3b5ecc5f90ea6df94f36154416f290771bd3391",
+            "bytes": 5176676
           },
-          "sha256": "32c90a79839dd65e5e4e2f825dfef14c7ea341956dc5df865f8bf549ba87f27d",
+          "sha256": "ada8c7ca60b0b614a8111dd2c3b5ecc5f90ea6df94f36154416f290771bd3391",
           "changedRows": 2765,
           "englishNames": [
             "moves",
@@ -557,13 +557,13 @@
         "2": {
           "patch": {
             "file": "patches/soulsilver-names-2.xor.gz",
-            "sha256": "9759885fa747abb0abd3db32fa374bd346d2b94d94f1bb983dc6e47ab2375493",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "2df7925feaa860e568759ac0dd1cc3f8fa89ac4bf3f81efb475aaebe6c1232ab",
-            "bytes": 4541937
+            "sha256": "7d01dbb703e16436b0dcc6c9fc904229f619112f62053e0133bcf70665ffb352",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "12012215eb82f9e5a88d2f403dced84e085c175661f3739e1612d08d2a39ea3f",
+            "bytes": 4555940
           },
-          "sha256": "2df7925feaa860e568759ac0dd1cc3f8fa89ac4bf3f81efb475aaebe6c1232ab",
-          "changedRows": 1044,
+          "sha256": "12012215eb82f9e5a88d2f403dced84e085c175661f3739e1612d08d2a39ea3f",
+          "changedRows": 1042,
           "englishNames": [
             "places"
           ]
@@ -571,13 +571,13 @@
         "10": {
           "patch": {
             "file": "patches/soulsilver-names-10.xor.gz",
-            "sha256": "bd8bc50d0bcae7ff4636b0b115dc1ef871f5d411aca20e8dbe943635c76456a4",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "2563dc5fe06efad9e057f73be2f618e2fad519b697329a291e59a1b6626198f2",
-            "bytes": 5242946
+            "sha256": "35e05b91a30d0d59be133a23849a0b07ff66142fed2a954767da6988f41c095f",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "aa0cdad223ba449c04aaa4a57d504bbf4134650064fd00ff9b5507649c7bf370",
+            "bytes": 5263095
           },
-          "sha256": "2563dc5fe06efad9e057f73be2f618e2fad519b697329a291e59a1b6626198f2",
-          "changedRows": 1288,
+          "sha256": "aa0cdad223ba449c04aaa4a57d504bbf4134650064fd00ff9b5507649c7bf370",
+          "changedRows": 1286,
           "englishNames": [
             "places",
             "abilities"
@@ -586,13 +586,13 @@
         "6": {
           "patch": {
             "file": "patches/soulsilver-names-6.xor.gz",
-            "sha256": "10ce8aa6a457107840372135d6c1466eaadaa9c213b3170908ea224fe14c2ec1",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "35f3b7dbc5e8461c79711b727481da59841a6f5f763545876dfe06709bbd45fd",
-            "bytes": 5132219
+            "sha256": "bbd73145b3fc5865bddd09a8b08a619594873a461aba74ab50145b7f22383a09",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "da23d592223429f77cb812285c2e0a3c682ddbb6ed7031cc2bac17eea23b417e",
+            "bytes": 5147453
           },
-          "sha256": "35f3b7dbc5e8461c79711b727481da59841a6f5f763545876dfe06709bbd45fd",
-          "changedRows": 3558,
+          "sha256": "da23d592223429f77cb812285c2e0a3c682ddbb6ed7031cc2bac17eea23b417e",
+          "changedRows": 3556,
           "englishNames": [
             "places",
             "moves"
@@ -601,13 +601,13 @@
         "14": {
           "patch": {
             "file": "patches/soulsilver-names-14.xor.gz",
-            "sha256": "1b75ae533f2fe107ffa4cf92c674e7681a7814b518a36e76f7d0510e8e22b586",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "aca173c660ce5234ec34004401598edc4121f124c3cdf24dce198c8732aa5b23",
-            "bytes": 5423769
+            "sha256": "093598d1b506fc23f4f89699c309fc0e0cd45f31b5a0a28c260bb78a0db01686",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "272b12497987e508c2dbca2dbc717899764234d2177f734ab31045ead613e93b",
+            "bytes": 5436957
           },
-          "sha256": "aca173c660ce5234ec34004401598edc4121f124c3cdf24dce198c8732aa5b23",
-          "changedRows": 3802,
+          "sha256": "272b12497987e508c2dbca2dbc717899764234d2177f734ab31045ead613e93b",
+          "changedRows": 3800,
           "englishNames": [
             "places",
             "moves",
@@ -617,12 +617,12 @@
         "1": {
           "patch": {
             "file": "patches/soulsilver-names-1.xor.gz",
-            "sha256": "574d4a3a1cd60667919b0a7c35b106a5c7add09ff4c10bb759e8f18aff566179",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "7babe42080eb5962a2878ec9708001ffe121e04b2612d0cf891df26369c948d5",
-            "bytes": 4734581
+            "sha256": "fc8118c280afc9ccf2536df2c03f4822705f8060869f4634719fa2357f4d99ba",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "8f6c4559d0a102d51d4cec3a410fa060ecc5c6b580b8f34aad2938745f836ed3",
+            "bytes": 4736338
           },
-          "sha256": "7babe42080eb5962a2878ec9708001ffe121e04b2612d0cf891df26369c948d5",
+          "sha256": "8f6c4559d0a102d51d4cec3a410fa060ecc5c6b580b8f34aad2938745f836ed3",
           "changedRows": 1376,
           "englishNames": [
             "items"
@@ -631,12 +631,12 @@
         "9": {
           "patch": {
             "file": "patches/soulsilver-names-9.xor.gz",
-            "sha256": "d6a0c67d7a95aad113579a91b860d9e9f14df9a1cdca01b05f89923661e7fe08",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "1ccdcb62250cd095db60fba392f88afcea88e9479f4f5018b55fdce3441d3789",
-            "bytes": 4768641
+            "sha256": "8990c58cca314b0fbe25faefbbb281c0db2ea87d5e0b2aedbd4a27bbdbb6d2eb",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "f3ff120b91f6f55691195c29a96226357c8eb5df34beb3ea06f17bd9f5b4e071",
+            "bytes": 4763064
           },
-          "sha256": "1ccdcb62250cd095db60fba392f88afcea88e9479f4f5018b55fdce3441d3789",
+          "sha256": "f3ff120b91f6f55691195c29a96226357c8eb5df34beb3ea06f17bd9f5b4e071",
           "changedRows": 1620,
           "englishNames": [
             "items",
@@ -646,12 +646,12 @@
         "5": {
           "patch": {
             "file": "patches/soulsilver-names-5.xor.gz",
-            "sha256": "3033cd6751bd9fb92301c8754cf82f15ed338ac431a3fa0d2ff3db4781514316",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "9b23f9fb91a768c967c5a8db998d8c9117ea2ab7f3c2a4ade05f05ed61c93a7d",
-            "bytes": 5531992
+            "sha256": "293c15245ba46195db550d620826325b20da23356183f70494d1317a4edacd8e",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "288665e594e9285dd340da66851327e3e20ce8cc6acecd76bbab6a898f538b20",
+            "bytes": 5520861
           },
-          "sha256": "9b23f9fb91a768c967c5a8db998d8c9117ea2ab7f3c2a4ade05f05ed61c93a7d",
+          "sha256": "288665e594e9285dd340da66851327e3e20ce8cc6acecd76bbab6a898f538b20",
           "changedRows": 3888,
           "englishNames": [
             "items",
@@ -661,12 +661,12 @@
         "13": {
           "patch": {
             "file": "patches/soulsilver-names-13.xor.gz",
-            "sha256": "e9b9e7da5d3ad670cad723d6cfacc62fba4164c24137a4dd2eda36fa10aee26c",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "503a63e4dcbce2d42a3a0a20f3d048f8ec34e83a7d3530d7fd8b1cfc114bb415",
-            "bytes": 5313529
+            "sha256": "fd6f22184a63c9313915b7b671c4217a7dfde17aec4fad0e6ca6fac44e05e3f5",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "66983e142e251779b2361984da8e42835534cc696b2e99daa27d7c9fd772fca4",
+            "bytes": 5299625
           },
-          "sha256": "503a63e4dcbce2d42a3a0a20f3d048f8ec34e83a7d3530d7fd8b1cfc114bb415",
+          "sha256": "66983e142e251779b2361984da8e42835534cc696b2e99daa27d7c9fd772fca4",
           "changedRows": 4132,
           "englishNames": [
             "items",
@@ -677,13 +677,13 @@
         "3": {
           "patch": {
             "file": "patches/soulsilver-names-3.xor.gz",
-            "sha256": "7b0ec0d6195b0c9d724be5d015d339a7bd3dcc83bfa2605eb9bfa8c118579ec8",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "af1f0c20104444c48f4a7fe0b67f3d989f0e7a5308d233f177b509a661eaacbc",
-            "bytes": 4666758
+            "sha256": "dd487c5becee63522c11ddd2f7222b760d259208f9d577a3d18cb8658919ccf9",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "b3b43b7c04d805ac8f8baff44d8cbe16b7e8641b4d2a77452244ff39555de5ea",
+            "bytes": 4676409
           },
-          "sha256": "af1f0c20104444c48f4a7fe0b67f3d989f0e7a5308d233f177b509a661eaacbc",
-          "changedRows": 2399,
+          "sha256": "b3b43b7c04d805ac8f8baff44d8cbe16b7e8641b4d2a77452244ff39555de5ea",
+          "changedRows": 2397,
           "englishNames": [
             "items",
             "places"
@@ -692,13 +692,13 @@
         "11": {
           "patch": {
             "file": "patches/soulsilver-names-11.xor.gz",
-            "sha256": "106017e4b9a352797c5119cad4cb82214ff28fa9ffe8a24fccb4a5f16ca0c9eb",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "9339eade0d0a15dc32df7756cbd06f993e27e77da5fedbeafc6943816ee95d0d",
-            "bytes": 4699088
+            "sha256": "727cadd481df4c26bc242d09ef7f9e069bd9ff5eb217dd00afb70c9bda7ef75a",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "34360e55dfb75a04ceacdaa78d556b8c9f700e798e64e48fb84a397e784eaa96",
+            "bytes": 4708021
           },
-          "sha256": "9339eade0d0a15dc32df7756cbd06f993e27e77da5fedbeafc6943816ee95d0d",
-          "changedRows": 2643,
+          "sha256": "34360e55dfb75a04ceacdaa78d556b8c9f700e798e64e48fb84a397e784eaa96",
+          "changedRows": 2641,
           "englishNames": [
             "items",
             "places",
@@ -708,13 +708,13 @@
         "7": {
           "patch": {
             "file": "patches/soulsilver-names-7.xor.gz",
-            "sha256": "f1387a4faded0ef767569bdee8a3e1c910c539d7ea7d64ac8abb9e633588a6b8",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "18d31607bcc3ae122241037e01f00c50a6b9165e4cec3650f63926697fcf8576",
-            "bytes": 5391366
+            "sha256": "d2c41f6cad46bdf2401aea2b4f0cbddf3cf28656511abe67bf082314440b0877",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "afeeee04a1b099e395b9af94213ad15d5f5191e4cee5deb40be11389aa3abe98",
+            "bytes": 5387455
           },
-          "sha256": "18d31607bcc3ae122241037e01f00c50a6b9165e4cec3650f63926697fcf8576",
-          "changedRows": 4904,
+          "sha256": "afeeee04a1b099e395b9af94213ad15d5f5191e4cee5deb40be11389aa3abe98",
+          "changedRows": 4902,
           "englishNames": [
             "items",
             "places",
@@ -724,13 +724,13 @@
         "15": {
           "patch": {
             "file": "patches/soulsilver-names-15.xor.gz",
-            "sha256": "c3ea28f4561a0ab04babec0be9f2c90470b9d5ad72bbfddb2f649c692d655fe9",
-            "sourceSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-            "targetSha256": "04b026ccd7fb6c7849b01e324c96c962d5a0c16d09d39632ae29b6cb27b771b7",
-            "bytes": 5339330
+            "sha256": "0e253036c348cbc52e87acdcf347fd931414091c20571209b8a1d3a5b4ed4b91",
+            "sourceSha256": "8410edeb27fcb248e409ec7db45e35a3680680b45534ab7b9bfaea11b67a8c33",
+            "targetSha256": "bab3f141584096fc4f2cdb39aabbec172244b9f0807768f55b6bc6ef33cf5a3e",
+            "bytes": 5346925
           },
-          "sha256": "04b026ccd7fb6c7849b01e324c96c962d5a0c16d09d39632ae29b6cb27b771b7",
-          "changedRows": 5148,
+          "sha256": "bab3f141584096fc4f2cdb39aabbec172244b9f0807768f55b6bc6ef33cf5a3e",
+          "changedRows": 5146,
           "englishNames": [
             "items",
             "places",

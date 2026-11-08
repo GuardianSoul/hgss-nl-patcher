@@ -1,21 +1,298 @@
 {
-  "release": "2026.10.09-1",
-  "snapshot_sha256": "2b7e2d240ef3c83d94ba79534bbecf6d217f7fbc2da8c59ede8c9e0b953ae22f",
-  "inputs": 14,
-  "configurations": 32,
-  "builds": "PASS",
-  "byte_exact_banks": 829,
-  "production_engine": "PASS",
-  "public_payloads": "PASS",
-  "point_abbreviations": "GP / KP",
+  "format": "HGNLXOR1/HGNLMAP1; source-copy references and compressed XOR masks; no standalone ROM or extracted graphics",
+  "snapshot_sha256": "34d40b521f4244e5ae7d24690ba8d9d64bf8bdfdfbfac99493bcf67d67d04872",
   "games": {
     "heartgold": {
-      "baseSha256": "224586192ba660efb82893a84c2f884fd5d02b08dd93bc0ab1ab8377a2d68de1",
-      "variants": 16
+      "options": {
+        "8": {
+          "changed_rows": 244,
+          "story_replacements": 2,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "4": {
+          "changed_rows": 2521,
+          "story_replacements": 2033,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "12": {
+          "changed_rows": 2765,
+          "story_replacements": 2035,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "2": {
+          "changed_rows": 1042,
+          "story_replacements": 1042,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "10": {
+          "changed_rows": 1286,
+          "story_replacements": 1044,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "6": {
+          "changed_rows": 3556,
+          "story_replacements": 3068,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "14": {
+          "changed_rows": 3800,
+          "story_replacements": 3070,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "1": {
+          "changed_rows": 1376,
+          "story_replacements": 1275,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "9": {
+          "changed_rows": 1620,
+          "story_replacements": 1277,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "5": {
+          "changed_rows": 3888,
+          "story_replacements": 3299,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "13": {
+          "changed_rows": 4132,
+          "story_replacements": 3301,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "3": {
+          "changed_rows": 2397,
+          "story_replacements": 2296,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "11": {
+          "changed_rows": 2641,
+          "story_replacements": 2298,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "7": {
+          "changed_rows": 4902,
+          "story_replacements": 4313,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "15": {
+          "changed_rows": 5146,
+          "story_replacements": 4315,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        }
+      },
+      "inputs": [
+        {
+          "region": "US",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "EU",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "DE",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "FR",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "ES",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "IT",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "JP",
+          "xor_roundtrip": "PASS"
+        }
+      ]
     },
     "soulsilver": {
-      "baseSha256": "90bfff926656cc154e7291cbea04eb3bdd0fc730c93cb6b31ae270a3bc38218e",
-      "variants": 16
+      "options": {
+        "8": {
+          "changed_rows": 244,
+          "story_replacements": 2,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "4": {
+          "changed_rows": 2521,
+          "story_replacements": 2033,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "12": {
+          "changed_rows": 2765,
+          "story_replacements": 2035,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "2": {
+          "changed_rows": 1042,
+          "story_replacements": 1042,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "10": {
+          "changed_rows": 1286,
+          "story_replacements": 1044,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "6": {
+          "changed_rows": 3556,
+          "story_replacements": 3068,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "14": {
+          "changed_rows": 3800,
+          "story_replacements": 3070,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "1": {
+          "changed_rows": 1376,
+          "story_replacements": 1275,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "9": {
+          "changed_rows": 1620,
+          "story_replacements": 1277,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "5": {
+          "changed_rows": 3888,
+          "story_replacements": 3299,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "13": {
+          "changed_rows": 4132,
+          "story_replacements": 3301,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "3": {
+          "changed_rows": 2397,
+          "story_replacements": 2296,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "11": {
+          "changed_rows": 2641,
+          "story_replacements": 2298,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "7": {
+          "changed_rows": 4902,
+          "story_replacements": 4313,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        },
+        "15": {
+          "changed_rows": 5146,
+          "story_replacements": 4315,
+          "native_decode": "PASS",
+          "gameplay_original": "PASS",
+          "xor_roundtrip": "PASS"
+        }
+      },
+      "inputs": [
+        {
+          "region": "US",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "EU",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "DE",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "FR",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "ES",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "IT",
+          "xor_roundtrip": "PASS"
+        },
+        {
+          "region": "JP",
+          "xor_roundtrip": "PASS"
+        }
+      ]
     }
-  }
+  },
+  "release_files": [
+    "README.md",
+    "RIGHTS.md",
+    "app.js",
+    "engine.js",
+    "fast-sha.js",
+    "index.html",
+    "manifest.js",
+    "manifest.json",
+    "patches",
+    "rom-ui.js",
+    "style.css"
+  ],
+  "roms_or_extracted_graphics_shipped": false
 }

@@ -94,7 +94,7 @@ function patchWorker() {
     if(jobs.has(file))return jobs.get(file).promise;
     const script=document.createElement('script');let resolve,reject;
     const promise=new Promise((a,b)=>{resolve=a;reject=b;});
-    jobs.set(file,{script,resolve,reject,promise});script.src=file+'.js?v='+encodeURIComponent(manifest.release);
+    jobs.set(file,{script,resolve,reject,promise});script.src=file+'.js';
     script.onerror=()=>{script.remove();jobs.delete(file);reject(new Error('Het vertaalpakket kon niet worden geopend. Houd de map “patches” bij index.html.'));};
     document.head.append(script);return promise;
   }
@@ -143,7 +143,7 @@ function patchWorker() {
     }catch(e){error(e.message);}
   }
   if(!manifest){error('Het vertaalpakket ontbreekt. Open de index.html uit het complete distributiepakket.');$('rom-file').disabled=true;return;}
-  $('release').textContent='VERSIE '+manifest.release;
+  $('release').textContent='WERKVERSIE '+manifest.release;
   for(const input of manifest.inputs){const li=document.createElement('li');li.textContent=input.label;$('supported-roms').append(li);}
   $('rom-file').addEventListener('change',e=>select(e.target.files[0]));
   for(const type of ['dragenter','dragover'])$('dropzone').addEventListener(type,e=>{e.preventDefault();if(!busy)$('dropzone').classList.add('dragging');});
