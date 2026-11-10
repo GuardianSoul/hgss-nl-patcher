@@ -32,3 +32,10 @@ Dit pakket bevat geen ROMs of los meegeleverde gamegraphics.
 Spelicoon en menurand worden lokaal uit het gekozen bestand gelezen.
 Rechten op het spel, de vertaalde teksten en beeldmerken blijven bij hun
 rechthebbenden. Het leveren van patches houdt geen rechtenoverdracht in.
+
+## Release 2026.11.10
+
+Bijgewerkt met correcte regelafbrekingen in de radioteksten, de informele
+je-vorm bij de Kimono-dames en de naam Team Rocket-Lid in gevechten.
+Deze wijzigingen gelden voor HeartGold en SoulSilver, met alle zestien
+combinaties van Nederlandse en Engelse namen per spel.

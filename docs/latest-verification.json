@@ -1,6 +1,7 @@
 {
   "format": "HGNLXOR1/HGNLMAP1; source-copy references and compressed XOR masks; no standalone ROM or extracted graphics",
-  "snapshot_sha256": "34d40b521f4244e5ae7d24690ba8d9d64bf8bdfdfbfac99493bcf67d67d04872",
+  "snapshot_sha256": "f1932f4c6242c0064d50b716b9b0d45ee558d353cb70de446aa1a2f3b1351532",
+  "release": "2026.11.10",
   "games": {
     "heartgold": {
       "options": {
@@ -294,5 +295,15 @@
     "rom-ui.js",
     "style.css"
   ],
-  "roms_or_extracted_graphics_shipped": false
+  "roms_or_extracted_graphics_shipped": false,
+  "checks": {
+    "translation_static_gate": "PASS",
+    "production_js_14_inputs_32_configurations": "PASS",
+    "native_complete_diff_30_variants": "PASS",
+    "native_rocket_join_every_variant": "PASS",
+    "radio_135_scripts_actual_option_buffers": "PASS",
+    "source_aware_naming_fixtures": "PASS",
+    "synthetic_patch_engine": "PASS",
+    "browser_flows_rerun": false
+  }
 }
